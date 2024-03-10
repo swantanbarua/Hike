@@ -51,8 +51,7 @@
 		5E1AFBF52B9E2B9F00174D52 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				5E1AFBF62B9E2B9F00174D52 /* HikeApp.swift */,
-				5E1AFBF82B9E2B9F00174D52 /* ContentView.swift */,
+				5E1AFC042B9E2D9B00174D52 /* IndexView */,
 				5E1AFBFA2B9E2BA800174D52 /* Assets.xcassets */,
 				5E1AFBFC2B9E2BA800174D52 /* Preview Content */,
 			);
@@ -65,6 +64,15 @@
 				5E1AFBFD2B9E2BA800174D52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E1AFC042B9E2D9B00174D52 /* IndexView */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AFBF62B9E2B9F00174D52 /* HikeApp.swift */,
+				5E1AFBF82B9E2B9F00174D52 /* ContentView.swift */,
+			);
+			path = IndexView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
