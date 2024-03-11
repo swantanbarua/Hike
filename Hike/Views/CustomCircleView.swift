@@ -22,7 +22,10 @@ struct CustomCircleView: View {
                     endPoint: .bottomTrailing
                 )
             )
-            .padding(.horizontal, 10)
+            .frame(
+                width: 256,
+                height: 256
+            )
     }
 }
 
