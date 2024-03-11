@@ -14,8 +14,7 @@ struct CardView: View {
         ZStack {
             CustomCircleView()
             
-            Image("image-1")
-                .imageModifier()
+            CardImageView()
         }
     }
 }

@@ -22,7 +22,7 @@ struct CustomCircleView: View {
                     endPoint: .bottomTrailing
                 )
             )
-            .padding()
+            .padding(.horizontal, 10)
     }
 }
 
