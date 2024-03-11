@@ -96,9 +96,7 @@
 		5E6F93B82B9F129D00075518 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5E6F93B62B9F11C200075518 /* CardView.swift */,
-				5E6F93BD2B9F138900075518 /* CustomCircleView.swift */,
-				5E6F93BF2B9F1C1400075518 /* CardImageView.swift */,
+				5E6F93C12B9F1FCA00075518 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +115,16 @@
 				5E6F93BA2B9F12CE00075518 /* ImageExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E6F93C12B9F1FCA00075518 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F93B62B9F11C200075518 /* CardView.swift */,
+				5E6F93BD2B9F138900075518 /* CustomCircleView.swift */,
+				5E6F93BF2B9F1C1400075518 /* CardImageView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
