@@ -8,3 +8,4 @@
 import Foundation
 
 let activityName = "Hiking"
+let activityDescription = "Fun and enjoyable outdoor activity for friends and families"

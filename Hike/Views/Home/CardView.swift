@@ -14,21 +14,39 @@ struct CardView: View {
         ZStack {
             CustomBackgroundView()
             VStack {
-                Text(activityName)
-                    .font(.system(
-                        size: 52,
-                        weight: .black
-                    ))
-                    .foregroundStyle(
-                        LinearGradient(
-                            colors: [
-                                .colorGrayLight,
-                                .colorGrayMedium
-                            ],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text(activityName)
+                            .font(.system(
+                                size: 52,
+                                weight: .black
+                            ))
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [
+                                        .colorGrayLight,
+                                        .colorGrayMedium
+                                    ],
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
+                                )
                         )
-                    )
+                        
+                        Button {
+                            
+                        } label: {
+                            Text("Button")
+                        }
+
+                    }
+                    
+                    Text(activityDescription)
+                        .multilineTextAlignment(.center)
+                        .italic()
+                        .foregroundStyle(.colorGrayMedium)
+                }
+                .padding(.horizontal, 30)
+                
                 ZStack {
                     CustomCircleView()
                     CardImageView()
