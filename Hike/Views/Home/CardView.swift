@@ -13,8 +13,27 @@ struct CardView: View {
     var body: some View {
         ZStack {
             CustomBackgroundView()
-            CustomCircleView()
-            CardImageView()
+            VStack {
+                Text(activityName)
+                    .font(.system(
+                        size: 52,
+                        weight: .black
+                    ))
+                    .foregroundStyle(
+                        LinearGradient(
+                            colors: [
+                                .colorGrayLight,
+                                .colorGrayMedium
+                            ],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                ZStack {
+                    CustomCircleView()
+                    CardImageView()
+                }
+            }
         }
     }
 }
