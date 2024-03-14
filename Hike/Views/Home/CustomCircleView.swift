@@ -11,24 +11,31 @@ struct CustomCircleView: View {
     
     // MARK: - BODY
     var body: some View {
-        Circle()
+        Circle() // Creates a circular shape.
             .fill(
                 LinearGradient(
                     colors: [
+                        // Sets the start color of the gradient to indigo.
                         .colorIndigoMedium,
+                        
+                        // Sets the end color of the gradient to salmon.
                         .colorSalmonLight
                     ],
+                    
+                    // Sets the starting point of the gradient.
                     startPoint: .topLeading,
+                    
+                    // Sets the ending point of the gradient.
                     endPoint: .bottomTrailing
                 )
             )
             .frame(
-                width: 256,
-                height: 256
+                width: 256, // Sets the width of the circle.
+                height: 256 // Sets the height of the circle.
             )
     }
 }
 
 #Preview {
-    CustomCircleView()
+    CustomCircleView() // Displays a preview of the custom circle view.
 }
