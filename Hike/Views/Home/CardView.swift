@@ -32,6 +32,8 @@ struct CardView: View {
                                 )
                         )
                         
+                        Spacer()
+                        
                         Button {
                            
                         } label: {
@@ -51,6 +53,7 @@ struct CardView: View {
                     CardImageView()
                 }
             }
+            .padding(.horizontal, 30)
         }
     }
 }
