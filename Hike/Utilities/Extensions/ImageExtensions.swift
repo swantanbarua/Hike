@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+// Extends the Image type with additional functionality.
 extension Image {
     
+    // Applies a modifier to the image to make it resizable and scaled to fit.
     func imageModifier() -> some View {
         self
             .resizable()
