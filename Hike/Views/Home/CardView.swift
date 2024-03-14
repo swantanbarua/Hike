@@ -33,11 +33,10 @@ struct CardView: View {
                         )
                         
                         Button {
-                            
+                           
                         } label: {
-                            Text("Button")
+                            CustomButtonView()
                         }
-
                     }
                     
                     Text(activityDescription)
