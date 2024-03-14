@@ -18,6 +18,9 @@
 		5E6F93C32B9F200600075518 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F93C22B9F200600075518 /* CustomBackgroundView.swift */; };
 		5E6F93F92BA02E6000075518 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F93F82BA02E6000075518 /* Strings.swift */; };
 		5E8460462BA38792000597AF /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8460452BA38792000597AF /* CustomButtonView.swift */; };
+		5E8460482BA38E33000597AF /* CustomButtonInnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8460472BA38E33000597AF /* CustomButtonInnerView.swift */; };
+		5E84604A2BA38E6C000597AF /* CustomButtonOuterRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8460492BA38E6C000597AF /* CustomButtonOuterRingView.swift */; };
+		5E84604C2BA38EA0000597AF /* CustomButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84604B2BA38EA0000597AF /* CustomButtonImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		5E6F93C22B9F200600075518 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		5E6F93F82BA02E6000075518 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		5E8460452BA38792000597AF /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		5E8460472BA38E33000597AF /* CustomButtonInnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonInnerView.swift; sourceTree = "<group>"; };
+		5E8460492BA38E6C000597AF /* CustomButtonOuterRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonOuterRingView.swift; sourceTree = "<group>"; };
+		5E84604B2BA38EA0000597AF /* CustomButtonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +135,22 @@
 			children = (
 				5E6F93B62B9F11C200075518 /* CardView.swift */,
 				5E6F93BD2B9F138900075518 /* CustomCircleView.swift */,
-				5E8460452BA38792000597AF /* CustomButtonView.swift */,
+				5E84604D2BA38ED2000597AF /* CustomButton */,
 				5E6F93BF2B9F1C1400075518 /* CardImageView.swift */,
 				5E6F93C22B9F200600075518 /* CustomBackgroundView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		5E84604D2BA38ED2000597AF /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				5E8460452BA38792000597AF /* CustomButtonView.swift */,
+				5E84604B2BA38EA0000597AF /* CustomButtonImageView.swift */,
+				5E8460492BA38E6C000597AF /* CustomButtonOuterRingView.swift */,
+				5E8460472BA38E33000597AF /* CustomButtonInnerView.swift */,
+			);
+			path = CustomButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +230,10 @@
 				5E6F93B72B9F11C200075518 /* CardView.swift in Sources */,
 				5E1AFBF72B9E2B9F00174D52 /* HikeApp.swift in Sources */,
 				5E6F93C02B9F1C1500075518 /* CardImageView.swift in Sources */,
+				5E84604C2BA38EA0000597AF /* CustomButtonImageView.swift in Sources */,
 				5E6F93BB2B9F12CE00075518 /* ImageExtensions.swift in Sources */,
+				5E8460482BA38E33000597AF /* CustomButtonInnerView.swift in Sources */,
+				5E84604A2BA38E6C000597AF /* CustomButtonOuterRingView.swift in Sources */,
 				5E6F93C32B9F200600075518 /* CustomBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
