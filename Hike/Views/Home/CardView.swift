@@ -12,11 +12,14 @@ struct CardView: View {
     // MARK: - BODY
     var body: some View {
         ZStack {
-            CustomBackgroundView() // Adds a custom background view to the card.
+            // Adds a custom background view to the card.
+            CustomBackgroundView()
+            
             VStack {
                 VStack(alignment: .leading) {
                     HStack {
-                        Text(activityName) // Displays the name of the activity.
+                        // Displays the name of the activity.
+                        Text(activityName)
                             .font(.system(
                                 size: 52,
                                 weight: .black
@@ -24,36 +27,55 @@ struct CardView: View {
                             .foregroundStyle(
                                 LinearGradient(
                                     colors: [
+                                        /* Sets the start color of the gradient to light gray. */
                                         .colorGrayLight,
+                                        
+                                        /* Sets the end color of the gradient to medium gray. */
                                         .colorGrayMedium
                                     ],
+                                    // Sets the starting point of the gradient.
                                     startPoint: .topLeading,
+                                    
+                                    // Sets the ending point of the gradient.
                                     endPoint: .bottomTrailing
                                 )
                             )
                         
-                        Spacer() // Adds flexible space between elements.
+                        // Adds flexible space between elements.
+                        Spacer()
                         
                         Button {
                             
                         } label: {
-                            CustomButtonView() // Adds a custom button view to the card.
+                            // Adds a custom button view to the card.
+                            CustomButtonView()
                         }
                     }
                     
-                    Text(activityDescription) // Displays the description of the activity.
+                    // Displays the description of the activity.
+                    Text(activityDescription)
+                    // Aligns the text in the center.
                         .multilineTextAlignment(.center)
+                    
+                    // Makes the text italic.
                         .italic()
+                    
+                    // Sets the text color to medium gray.
                         .foregroundStyle(.colorGrayMedium)
                 }
-                .padding(.horizontal, 30) // Adds horizontal padding to the content.
+                // Adds horizontal padding to the content.
+                .padding(.horizontal, 30)
                 
                 ZStack {
-                    CustomCircleView() // Adds a custom circle view to the card.
-                    CardImageView() // Adds an image view to the card.
+                    // Adds a custom circle view to the card.
+                    CustomCircleView()
+                    
+                    // Adds an image view to the card.
+                    CardImageView()
                 }
             }
-            .padding(.horizontal, 30) // Adds horizontal padding to the content.
+            // Adds horizontal padding to the content.
+            .padding(.horizontal, 30)
         }
     }
 }
