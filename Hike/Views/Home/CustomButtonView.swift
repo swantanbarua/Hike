@@ -14,14 +14,28 @@ struct CustomButtonView: View {
         ZStack {
             Circle()
                 .fill(
-                    LinearGradient(colors: [
-                        .colorGreenLight,
-                        .colorGreenMedium,
-                        .colorGreenDark
-                    ],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
+                    LinearGradient(
+                        colors: [
+                            .colorGreenLight,
+                            .colorGreenMedium,
+                            .colorGreenDark
+                        ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
                     )
+                )
+            
+            Circle()
+                .stroke(
+                    LinearGradient(
+                        colors: [
+                            .colorGrayLight,
+                            .colorGrayMedium
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    ),
+                    lineWidth: 4
                 )
         }
     }
@@ -29,4 +43,6 @@ struct CustomButtonView: View {
 
 #Preview {
     CustomButtonView()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }
