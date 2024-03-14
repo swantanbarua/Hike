@@ -37,7 +37,17 @@ struct CustomButtonView: View {
                     ),
                     lineWidth: 4
                 )
+            
+            Image(systemName: "figure.hiking")
+                .font(.system(
+                    size: 30,
+                    weight: .black
+                ))
         }
+        .frame(
+            width: 60,
+            height: 60
+        )
     }
 }
 
