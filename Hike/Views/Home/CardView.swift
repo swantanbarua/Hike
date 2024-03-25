@@ -26,8 +26,19 @@ struct CardView: View {
                     
                 } label: {
                     Text(exploreMoreText)
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            LinearGradient(
+                                colors: [
+                                    .colorGreenLight,
+                                    .colorGreenMedium
+                                ],
+                                startPoint: .top,
+                                endPoint: .bottom
+                            )
+                        )
                 }
-
             }
             // Adds horizontal padding to the content.
             .padding(.horizontal, 30)
