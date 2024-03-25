@@ -22,42 +22,8 @@ struct CardView: View {
                 // Displays card body view.
                 CardBodyView()
                 
-                Button {
-                    
-                } label: {
-                    Text(exploreMoreText)
-                        .font(.title2)
-                        .fontWeight(.heavy)
-                        .foregroundStyle(
-                            LinearGradient(
-                                colors: [
-                                    .colorGreenLight,
-                                    .colorGreenMedium
-                                ],
-                                startPoint: .top,
-                                endPoint: .bottom
-                            )
-                        )
-                        .shadow(
-                            color: .black.opacity(0.25),
-                            radius: 0.25,
-                            x: 1,
-                            y: 2
-                        )
-                }
-                .padding(.vertical)
-                .padding(.horizontal, 30)
-                .background(
-                    LinearGradient(
-                        colors: [
-                            .colorGrayLight,
-                            .colorGrayMedium
-                        ],
-                        startPoint: .top,
-                        endPoint: .bottom
-                    )
-                )
-                .cornerRadius(40)
+                // Displays card footer view.
+                CardFooterView()
             }
             // Adds horizontal padding to the content.
             .padding(.horizontal, 30)

@@ -25,6 +25,7 @@
 		5EAFF5BE2BB138D200297F91 /* CardSubheadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF5BD2BB138D200297F91 /* CardSubheadingView.swift */; };
 		5EF0A1332BB13BD400532D59 /* CardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1322BB13BD400532D59 /* CardHeaderView.swift */; };
 		5EF0A1352BB13C7200532D59 /* CardBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1342BB13C7100532D59 /* CardBodyView.swift */; };
+		5EF0A1382BB1494E00532D59 /* CardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1372BB1494E00532D59 /* CardFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		5EAFF5BD2BB138D200297F91 /* CardSubheadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSubheadingView.swift; sourceTree = "<group>"; };
 		5EF0A1322BB13BD400532D59 /* CardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderView.swift; sourceTree = "<group>"; };
 		5EF0A1342BB13C7100532D59 /* CardBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBodyView.swift; sourceTree = "<group>"; };
+		5EF0A1372BB1494E00532D59 /* CardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				5E6F93B62B9F11C200075518 /* CardView.swift */,
 				5EF0A1312BB13B5900532D59 /* CardHeader */,
 				5EF0A1362BB13CAD00532D59 /* CardBody */,
+				5EF0A1392BB149FF00532D59 /* CardFooter */,
 				5E84604D2BA38ED2000597AF /* CustomButton */,
 				5E6F93C22B9F200600075518 /* CustomBackgroundView.swift */,
 			);
@@ -179,6 +182,14 @@
 				5E6F93BF2B9F1C1400075518 /* CardImageView.swift */,
 			);
 			path = CardBody;
+			sourceTree = "<group>";
+		};
+		5EF0A1392BB149FF00532D59 /* CardFooter */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0A1372BB1494E00532D59 /* CardFooterView.swift */,
+			);
+			path = CardFooter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +265,7 @@
 				5EF0A1352BB13C7200532D59 /* CardBodyView.swift in Sources */,
 				5E6F93BE2B9F138900075518 /* CustomCircleView.swift in Sources */,
 				5E1AFBF92B9E2B9F00174D52 /* ContentView.swift in Sources */,
+				5EF0A1382BB1494E00532D59 /* CardFooterView.swift in Sources */,
 				5EF0A1332BB13BD400532D59 /* CardHeaderView.swift in Sources */,
 				5E6F93F92BA02E6000075518 /* Strings.swift in Sources */,
 				5E8460462BA38792000597AF /* CustomButtonView.swift in Sources */,
