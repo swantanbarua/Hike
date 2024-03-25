@@ -26,6 +26,7 @@
 		5EF0A1332BB13BD400532D59 /* CardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1322BB13BD400532D59 /* CardHeaderView.swift */; };
 		5EF0A1352BB13C7200532D59 /* CardBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1342BB13C7100532D59 /* CardBodyView.swift */; };
 		5EF0A1382BB1494E00532D59 /* CardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1372BB1494E00532D59 /* CardFooterView.swift */; };
+		5EF0A13D2BB14D9500532D59 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A13C2BB14D9500532D59 /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		5EF0A1322BB13BD400532D59 /* CardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderView.swift; sourceTree = "<group>"; };
 		5EF0A1342BB13C7100532D59 /* CardBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBodyView.swift; sourceTree = "<group>"; };
 		5EF0A1372BB1494E00532D59 /* CardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooterView.swift; sourceTree = "<group>"; };
+		5EF0A13C2BB14D9500532D59 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				5E6F93BC2B9F12F100075518 /* Extensions */,
 				5E6F93F82BA02E6000075518 /* Strings.swift */,
+				5EF0A13C2BB14D9500532D59 /* GradientButton.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				5E6F93C02B9F1C1500075518 /* CardImageView.swift in Sources */,
 				5E84604C2BA38EA0000597AF /* CustomButtonImageView.swift in Sources */,
 				5E6F93BB2B9F12CE00075518 /* ImageExtensions.swift in Sources */,
+				5EF0A13D2BB14D9500532D59 /* GradientButton.swift in Sources */,
 				5EAFF5BE2BB138D200297F91 /* CardSubheadingView.swift in Sources */,
 				5E8460482BA38E33000597AF /* CustomButtonInnerView.swift in Sources */,
 				5E84604A2BA38E6C000597AF /* CustomButtonOuterRingView.swift in Sources */,

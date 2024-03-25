@@ -36,19 +36,7 @@ struct CardFooterView: View {
                     y: 2
                 )
         }
-        .padding(.vertical) // Vertical padding
-        .padding(.horizontal, 30) // Horizontal padding
-        .background( // Background gradient
-            LinearGradient(
-                colors: [
-                    .colorGrayLight,
-                    .colorGrayMedium
-                ],
-                startPoint: .top,
-                endPoint: .bottom
-            )
-        )
-        .cornerRadius(40) // Corner radius for button
+        .buttonStyle(GradientButton())
     }
 }
 
