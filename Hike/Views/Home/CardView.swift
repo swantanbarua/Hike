@@ -18,28 +18,8 @@ struct CardView: View {
             VStack {
                 VStack(alignment: .leading) {
                     HStack {
-                        // Displays the name of the activity.
-                        Text(activityName)
-                            .font(.system(
-                                size: 52,
-                                weight: .black
-                            ))
-                            .foregroundStyle(
-                                LinearGradient(
-                                    colors: [
-                                        /* Sets the start color of the gradient to light gray. */
-                                        .colorGrayLight,
-                                        
-                                        /* Sets the end color of the gradient to medium gray. */
-                                        .colorGrayMedium
-                                    ],
-                                    // Sets the starting point of the gradient.
-                                    startPoint: .topLeading,
-                                    
-                                    // Sets the ending point of the gradient.
-                                    endPoint: .bottomTrailing
-                                )
-                            )
+                        // Displays the view responsible for rendering the card heading.
+                        CardHeadingView()
                         
                         // Adds flexible space between elements.
                         Spacer()
@@ -52,16 +32,8 @@ struct CardView: View {
                         }
                     }
                     
-                    // Displays the description of the activity.
-                    Text(activityDescription)
-                    // Aligns the text in the center.
-                        .multilineTextAlignment(.center)
-                    
-                    // Makes the text italic.
-                        .italic()
-                    
-                    // Sets the text color to medium gray.
-                        .foregroundStyle(.colorGrayMedium)
+                    // Displays the view responsible for rendering the card subheading.
+                    CardSubheadingView()
                 }
                 // Adds horizontal padding to the content.
                 .padding(.horizontal, 30)
