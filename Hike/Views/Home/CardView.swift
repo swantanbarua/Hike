@@ -19,13 +19,8 @@ struct CardView: View {
                 // Displays card header view.
                 CardHeaderView()
                 
-                ZStack {
-                    // Adds a custom circle view to the card.
-                    CustomCircleView()
-                    
-                    // Adds an image view to the card.
-                    CardImageView()
-                }
+                // Displays card body view.
+                CardBodyView()
             }
             // Adds horizontal padding to the content.
             .padding(.horizontal, 30)
