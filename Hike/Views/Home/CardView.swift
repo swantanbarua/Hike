@@ -38,7 +38,26 @@ struct CardView: View {
                                 endPoint: .bottom
                             )
                         )
+                        .shadow(
+                            color: .black.opacity(0.25),
+                            radius: 0.25,
+                            x: 1,
+                            y: 2
+                        )
                 }
+                .padding(.vertical)
+                .padding(.horizontal, 30)
+                .background(
+                    LinearGradient(
+                        colors: [
+                            .colorGrayLight,
+                            .colorGrayMedium
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
+                )
+                .cornerRadius(40)
             }
             // Adds horizontal padding to the content.
             .padding(.horizontal, 30)
