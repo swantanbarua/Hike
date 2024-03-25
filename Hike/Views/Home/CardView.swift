@@ -21,6 +21,13 @@ struct CardView: View {
                 
                 // Displays card body view.
                 CardBodyView()
+                
+                Button {
+                    
+                } label: {
+                    Text(exploreMoreText)
+                }
+
             }
             // Adds horizontal padding to the content.
             .padding(.horizontal, 30)

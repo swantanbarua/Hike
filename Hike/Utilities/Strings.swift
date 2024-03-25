@@ -7,9 +7,11 @@
 
 import Foundation
 
-// Declares a constant variable named `activityName` with a value "Hiking".
+// Constant variable storing the name of the activity.
 let activityName = "Hiking"
 
-/* Declares a constant variable named `activityDescription` with a value "Fun and enjoyable outdoor activity for friends and families".
- */
+// Constant variable storing the description of the activity.
 let activityDescription = "Fun and enjoyable outdoor activity for friends and families"
+
+// Text prompting to explore more.
+let exploreMoreText = "Explore More"
