@@ -2,7 +2,7 @@
 //  HikeApp.swift
 //  Hike
 //
-//  Created by Relentless VC on 15/09/24.
+//  Created by Swantan Barua on 15/09/24.
 //
 
 import SwiftUI

@@ -51,8 +51,7 @@
 		AE78C05D2C96142700A8AEE4 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				AE78C05E2C96142700A8AEE4 /* HikeApp.swift */,
-				AE78C0602C96142700A8AEE4 /* ContentView.swift */,
+				AE78C06C2C96162900A8AEE4 /* Index */,
 				AE78C0622C96142B00A8AEE4 /* Assets.xcassets */,
 				AE78C0642C96142B00A8AEE4 /* Preview Content */,
 			);
@@ -65,6 +64,15 @@
 				AE78C0652C96142B00A8AEE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE78C06C2C96162900A8AEE4 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				AE78C05E2C96142700A8AEE4 /* HikeApp.swift */,
+				AE78C0602C96142700A8AEE4 /* ContentView.swift */,
+			);
+			path = Index;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
