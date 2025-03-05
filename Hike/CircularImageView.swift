@@ -16,8 +16,8 @@ struct CircularImageView: View {
                 .fill(
                     LinearGradient(
                         colors: [
-                            .red,
-                            .blue
+                            .colorIndigoMedium,
+                            .colorSalmonLight
                         ],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
