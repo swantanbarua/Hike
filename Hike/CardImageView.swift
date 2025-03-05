@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CardImageView.swift
 //  Hike
 //
 //  Created by Swantan Barua on 05/03/25.
@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CardImageView: View {
     
     // MARK: - BODY
     var body: some View {
-        CircularImageView()
+        Image("image-1")
+            .imageModifier()
     }
 }
 
 #Preview {
-    ContentView()
+    CardImageView()
 }
