@@ -23,6 +23,11 @@ struct CircularImageView: View {
                         endPoint: .bottomTrailing
                     )
                 )
+                .frame(
+                    width: 256,
+                    height: 256
+                )
+            
             CardImageView()
         }
     }
