@@ -23,6 +23,10 @@ struct CardView: View {
                         endPoint: .bottomTrailing
                     )
                 )
+                .frame(
+                    width: 256,
+                    height: 256
+                )
             Image("image-1")
                 .applyResizableFit()
         }
