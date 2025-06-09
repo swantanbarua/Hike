@@ -11,8 +11,7 @@ struct ContentView: View {
     
     // MARK: - BODY
     var body: some View {
-        Image("image-1")
-            .applyResizableFit()
+        CardView()
     }
 }
 
