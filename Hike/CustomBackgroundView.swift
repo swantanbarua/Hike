@@ -11,18 +11,33 @@ struct CustomBackgroundView: View {
     
     // MARK: - BODY
     var body: some View {
-        LinearGradient(
-            colors: [
-                .colorGreenLight,
-                .colorGreenMedium
-            ],
-            startPoint: .top,
-            endPoint: .bottom
-        )
-        .cornerRadius(40)
+        ZStack {
+            // DEPTH
+            Color(.colorGreenDark)
+                .cornerRadius(40)
+                .offset(y: 12)
+            
+            // LIGHT
+            Color(.colorGreenLight)
+                .cornerRadius(40)
+                .offset(y: 3)
+                .opacity(0.85)
+            
+            // SURFACE
+            LinearGradient(
+                colors: [
+                    .colorGreenLight,
+                    .colorGreenMedium
+                ],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            .cornerRadius(40)
+        }
     }
 }
 
 #Preview {
     CustomBackgroundView()
+        .padding()
 }
