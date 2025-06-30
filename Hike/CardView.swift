@@ -12,7 +12,7 @@ struct CardView: View {
     // MARK: - BODY
     var body: some View {
         ZStack {
-            CustomBackgroundView()
+            CustomCardBackgroundView()
             ZStack {
                 CardCircleBackgroundView()
                 Image("image-1")

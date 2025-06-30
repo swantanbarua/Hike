@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomBackgroundView: View {
+struct CustomCardBackgroundView: View {
     
     // MARK: - BODY
     var body: some View {
@@ -38,6 +38,6 @@ struct CustomBackgroundView: View {
 }
 
 #Preview {
-    CustomBackgroundView()
+    CustomCardBackgroundView()
         .padding()
 }
