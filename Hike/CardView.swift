@@ -13,11 +13,7 @@ struct CardView: View {
     var body: some View {
         ZStack {
             CustomCardBackgroundView()
-            ZStack {
-                CardCircleBackgroundView()
-                Image("image-1")
-                    .applyResizableFit()
-            }
+            CardContentView()
         }
         .frame(
             width: 320,
