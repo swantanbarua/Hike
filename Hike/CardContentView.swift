@@ -11,10 +11,31 @@ struct CardContentView: View {
     
     // MARK: - BODY
     var body: some View {
-        ZStack {
-            CardCircleBackgroundView()
-            Image("image-1")
-                .applyResizableFit()
+        VStack {
+            Text("Hiking")
+                .font(
+                    .system(
+                        size: 52,
+                        weight: .black,
+                        design: .rounded
+                    )
+                )
+                .foregroundStyle(
+                    LinearGradient(
+                        colors: [
+                            .colorGrayLight,
+                            .colorGrayMedium
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
+                )
+            
+            ZStack {
+                CardCircleBackgroundView()
+                Image("image-1")
+                    .applyResizableFit()
+            }
         }
     }
 }
